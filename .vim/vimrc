@@ -1,5 +1,7 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+set laststatus=2
+set t_co=256
 let g:airline_theme='bubblegum'
 let g:NERDSpaceDelims = 1
